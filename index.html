@@ -23,18 +23,21 @@
         align-items: center;
         text-align: center;
       }
-      .container > *:nth-child(even) {
+      .container > *:nth-child(7n + 1){
+        color: red;
+      }
+      .container > *:nth-child(7n ){
+        color: blue;
+      }
+      /* 炭治郎 */
+      /* .container > *:nth-child(even) {
         background-color: #26a27e;
       }
       .container > *:nth-child(odd) {
         background-color: black;
         color: white;
-      }
-      .container > .week {
-        background-color: white ;
-        color: black;
-        /* border-bottom: 1px solid gray; */
-      }
+      } */
+      
     </style>
     <div class="container">
       <div class="week">日</div>
