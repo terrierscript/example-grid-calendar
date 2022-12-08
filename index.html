@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <script type="module" src="/src/main.ts"></script> -->
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(7,60px);
+        grid-template-rows: repeat(10,60px);
+        /* grid-gap: 2px; */
+        /* justify-items: stretch; */
+        place-items: stretch;
+        place-content: center;
+        /* place-items: center;
+        place-self: center; */
+      }
+      .container > * {
+        display: grid;
+        align-items: center;
+        text-align: center;
+      }
+      .container > *:nth-child(even) {
+        background-color: #26a27e;
+      }
+      .container > *:nth-child(odd) {
+        background-color: black;
+        color: white;
+      }
+      .container > .week {
+        background-color: white ;
+        color: black;
+        /* border-bottom: 1px solid gray; */
+      }
+    </style>
+    <div class="container">
+      <div class="week">Sun</div>
+      <div class="week">Mon</div>
+      <div class="week">Tue</div>
+      <div class="week">Wed</div>
+      <div class="week">Thu</div>
+      <div class="week">Fri</div>
+      <div class="week">Sat</div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>11</div>
+      <div>12</div>
+      <div>13</div>
+      <div>14</div>
+      <div>15</div>
+      <div>16</div>
+      <div>17</div>
+      <div>18</div>
+      <div>19</div>
+      <div>21</div>
+      <div>22</div>
+      <div>23</div>
+      <div>24</div>
+      <div>25</div>
+      <div>26</div>
+      <div>27</div>
+      <div>28</div>
+      <div>29</div>
+      <div>30</div>
+      <div>31</div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+      <div class="none"></div>
+    </div>
+  </body>
+</html>
